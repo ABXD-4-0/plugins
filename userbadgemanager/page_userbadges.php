@@ -64,7 +64,7 @@ while($badges = Fetch($rBadge))
 "
 	<tr class=\"cell{0}\">
 		<td>
-			<a href=".actionLink("profile", "{2}").">{1}</a>
+			<a href=".actionLink("profile", $badges['owner']).">{1}</a>
 		</td>
 		<td>
 			{3}
